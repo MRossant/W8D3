@@ -43,3 +43,71 @@
 .profile-nav ul:first-child {
     border-top: 1px solid black;
 }
+
+.profile-nav li:hover {
+    background-color: lightgrey;
+}
+
+.friends-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.thumb {
+    display: block;
+    width: 50px;
+    padding: 2.5px;
+}
+
+.friends-list img {
+    border-radius: 5%;
+}
+
+.post-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    position: absolute;
+    width: 500px;
+    border-radius: 2%;
+}
+
+/* .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.input {
+    position: relative;
+    padding: 20px;
+}
+
+.input label {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.input input {
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.input textarea {
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    width: 100%;
+    background-color: white;
+}
+
+#post-btn {
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    color: hotpink;
+    padding: 10px;
+}
+
+
+
